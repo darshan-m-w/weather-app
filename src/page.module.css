@@ -1,0 +1,112 @@
+.container {
+  background: url("./assets/wether-img1.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.searchbar {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0, 493);
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  align-items: center;
+  margin: 10px;
+}
+.searchbar input {
+  width: 300px;
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  background-color: #001;
+}
+.searchbar button {
+  width: 50px;
+  height: 61px;
+  background-color: #001;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.row {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section1 {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  margin: 10px;
+}
+
+.section11 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.temp {
+  font-size: 60px;
+  color: #fbff52;
+}
+
+.city {
+  font-size: 30px;
+}
+.weathertype {
+  font-size: 40px;
+}
+.timediv {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.time {
+  font-size: 60px;
+  color: #fbff52;
+}
+
+.section2 {
+  background-color: transparent;
+  width: 95%;
+  position: absolute;
+  bottom: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section21 {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.otherdata {
+  color: #fbff52;
+}
+
+.weathericon {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
